@@ -18,6 +18,7 @@
 ** Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
 **
 */
+#include <pcap/pcap.h>
 #ifndef __DSSL_DSSL_DEFS_H__
 #define __DSSL_DSSL_DEFS_H__
 

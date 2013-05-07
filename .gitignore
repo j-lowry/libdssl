@@ -1,8 +1,15 @@
 Makefile
 config.log
 config.status
+configure.scan
 libtool
+autoscan.log
 samples/Makefile
 src/Makefile
 tests/Makefile
-
+*.o
+*.lo
+*.la
+samples/ssltrace
+src/.libs/*
+src/.deps/*

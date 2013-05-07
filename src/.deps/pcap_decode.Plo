@@ -1,24 +1,39 @@
 pcap_decode.lo: pcap_decode.c /usr/include/string.h \
- /usr/include/features.h /usr/include/bits/predefs.h \
- /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h \
- /usr/include/gnu/stubs.h /usr/include/gnu/stubs-32.h \
- /usr/lib/gcc/i486-linux-gnu/4.4.3/include/stddef.h \
- /usr/include/xlocale.h /usr/include/bits/string.h \
- /usr/include/bits/string2.h /usr/include/endian.h \
- /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
- /usr/include/bits/types.h /usr/include/bits/typesizes.h \
- /usr/include/stdlib.h /usr/include/bits/string3.h stdinc.h \
- /usr/include/sys/types.h /usr/include/time.h /usr/include/sys/select.h \
- /usr/include/bits/select.h /usr/include/bits/sigset.h \
- /usr/include/bits/time.h /usr/include/sys/sysmacros.h \
- /usr/include/bits/pthreadtypes.h /usr/include/alloca.h \
- /usr/include/bits/stdlib.h ptypes.h /usr/include/inttypes.h \
- /usr/include/stdint.h /usr/include/bits/wchar.h /usr/include/pcap.h \
- /usr/include/pcap/pcap.h /usr/include/sys/time.h /usr/include/pcap/bpf.h \
- /usr/include/stdio.h /usr/include/libio.h /usr/include/_G_config.h \
- /usr/include/wchar.h /usr/lib/gcc/i486-linux-gnu/4.4.3/include/stdarg.h \
- /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
- /usr/include/bits/stdio.h /usr/include/bits/stdio2.h log.h errors.h \
+ /usr/include/features.h /usr/include/x86_64-linux-gnu/bits/predefs.h \
+ /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+ /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.6/include/stddef.h \
+ /usr/include/xlocale.h /usr/include/x86_64-linux-gnu/bits/string.h \
+ /usr/include/x86_64-linux-gnu/bits/string2.h /usr/include/endian.h \
+ /usr/include/x86_64-linux-gnu/bits/endian.h \
+ /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+ /usr/include/x86_64-linux-gnu/bits/types.h \
+ /usr/include/x86_64-linux-gnu/bits/typesizes.h /usr/include/stdlib.h \
+ /usr/include/x86_64-linux-gnu/bits/string3.h stdinc.h \
+ /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+ /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+ /usr/include/x86_64-linux-gnu/sys/types.h /usr/include/time.h \
+ /usr/include/x86_64-linux-gnu/sys/select.h \
+ /usr/include/x86_64-linux-gnu/bits/select.h \
+ /usr/include/x86_64-linux-gnu/bits/sigset.h \
+ /usr/include/x86_64-linux-gnu/bits/time.h \
+ /usr/include/x86_64-linux-gnu/bits/select2.h \
+ /usr/include/x86_64-linux-gnu/sys/sysmacros.h \
+ /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h /usr/include/alloca.h \
+ /usr/include/x86_64-linux-gnu/bits/stdlib.h ptypes.h \
+ /usr/include/inttypes.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.6/include/stdint.h /usr/include/stdint.h \
+ /usr/include/x86_64-linux-gnu/bits/wchar.h /usr/include/pcap.h \
+ /usr/include/pcap/pcap.h /usr/include/x86_64-linux-gnu/sys/time.h \
+ /usr/include/pcap/bpf.h /usr/include/stdio.h /usr/include/libio.h \
+ /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/x86_64-linux-gnu/4.6/include/stdarg.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio2.h log.h errors.h \
  /usr/include/openssl/ssl.h /usr/include/openssl/e_os2.h \
  /usr/include/openssl/opensslconf.h /usr/include/openssl/comp.h \
  /usr/include/openssl/crypto.h /usr/include/openssl/stack.h \
@@ -36,23 +51,30 @@ pcap_decode.lo: pcap_decode.c /usr/include/string.h \
  /usr/include/openssl/pem.h /usr/include/openssl/pem2.h \
  /usr/include/openssl/hmac.h /usr/include/openssl/kssl.h \
  /usr/include/openssl/ssl2.h /usr/include/openssl/ssl3.h \
- /usr/include/openssl/pq_compat.h /usr/include/openssl/tls1.h \
- /usr/include/openssl/dtls1.h /usr/include/openssl/pqueue.h \
- /usr/include/openssl/ssl23.h /usr/include/openssl/md5.h dssl_defs.h \
+ /usr/include/openssl/tls1.h /usr/include/openssl/dtls1.h \
+ /usr/include/openssl/pqueue.h /usr/include/openssl/ssl23.h \
+ /usr/include/openssl/srtp.h /usr/include/openssl/md5.h dssl_defs.h \
  netdefs.h /usr/include/netinet/ether.h /usr/include/netinet/if_ether.h \
  /usr/include/linux/if_ether.h /usr/include/linux/types.h \
- /usr/include/asm/types.h /usr/include/asm-generic/types.h \
- /usr/include/asm-generic/int-ll64.h /usr/include/asm/bitsperlong.h \
+ /usr/include/x86_64-linux-gnu/asm/types.h \
+ /usr/include/asm-generic/types.h /usr/include/asm-generic/int-ll64.h \
+ /usr/include/x86_64-linux-gnu/asm/bitsperlong.h \
  /usr/include/asm-generic/bitsperlong.h /usr/include/linux/posix_types.h \
- /usr/include/linux/stddef.h /usr/include/asm/posix_types.h \
- /usr/include/asm/posix_types_32.h /usr/include/net/ethernet.h \
- /usr/include/net/if_arp.h /usr/include/sys/socket.h \
- /usr/include/sys/uio.h /usr/include/bits/uio.h \
- /usr/include/bits/socket.h /usr/include/bits/sockaddr.h \
- /usr/include/asm/socket.h /usr/include/asm-generic/socket.h \
- /usr/include/asm/sockios.h /usr/include/asm-generic/sockios.h \
- /usr/include/bits/socket2.h /usr/include/netinet/ip.h \
- /usr/include/netinet/in.h /usr/include/bits/in.h \
+ /usr/include/linux/stddef.h \
+ /usr/include/x86_64-linux-gnu/asm/posix_types.h \
+ /usr/include/x86_64-linux-gnu/asm/posix_types_64.h \
+ /usr/include/net/ethernet.h /usr/include/net/if_arp.h \
+ /usr/include/x86_64-linux-gnu/sys/socket.h \
+ /usr/include/x86_64-linux-gnu/sys/uio.h \
+ /usr/include/x86_64-linux-gnu/bits/uio.h \
+ /usr/include/x86_64-linux-gnu/bits/socket.h \
+ /usr/include/x86_64-linux-gnu/bits/sockaddr.h \
+ /usr/include/x86_64-linux-gnu/asm/socket.h \
+ /usr/include/asm-generic/socket.h \
+ /usr/include/x86_64-linux-gnu/asm/sockios.h \
+ /usr/include/asm-generic/sockios.h \
+ /usr/include/x86_64-linux-gnu/bits/socket2.h /usr/include/netinet/ip.h \
+ /usr/include/netinet/in.h /usr/include/x86_64-linux-gnu/bits/in.h \
  /usr/include/netinet/tcp.h /usr/include/netinet/udp.h decode.h packet.h \
  capenv.h session_table.h session.h stream.h ssl_ctx.h
 
@@ -60,73 +82,81 @@ pcap_decode.lo: pcap_decode.c /usr/include/string.h \
 
 /usr/include/features.h:
 
-/usr/include/bits/predefs.h:
+/usr/include/x86_64-linux-gnu/bits/predefs.h:
 
-/usr/include/sys/cdefs.h:
+/usr/include/x86_64-linux-gnu/sys/cdefs.h:
 
-/usr/include/bits/wordsize.h:
+/usr/include/x86_64-linux-gnu/bits/wordsize.h:
 
-/usr/include/gnu/stubs.h:
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
 
-/usr/include/gnu/stubs-32.h:
+/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
 
-/usr/lib/gcc/i486-linux-gnu/4.4.3/include/stddef.h:
+/usr/lib/gcc/x86_64-linux-gnu/4.6/include/stddef.h:
 
 /usr/include/xlocale.h:
 
-/usr/include/bits/string.h:
+/usr/include/x86_64-linux-gnu/bits/string.h:
 
-/usr/include/bits/string2.h:
+/usr/include/x86_64-linux-gnu/bits/string2.h:
 
 /usr/include/endian.h:
 
-/usr/include/bits/endian.h:
+/usr/include/x86_64-linux-gnu/bits/endian.h:
 
-/usr/include/bits/byteswap.h:
+/usr/include/x86_64-linux-gnu/bits/byteswap.h:
 
-/usr/include/bits/types.h:
+/usr/include/x86_64-linux-gnu/bits/types.h:
 
-/usr/include/bits/typesizes.h:
+/usr/include/x86_64-linux-gnu/bits/typesizes.h:
 
 /usr/include/stdlib.h:
 
-/usr/include/bits/string3.h:
+/usr/include/x86_64-linux-gnu/bits/string3.h:
 
 stdinc.h:
 
-/usr/include/sys/types.h:
+/usr/include/x86_64-linux-gnu/bits/waitflags.h:
+
+/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
+
+/usr/include/x86_64-linux-gnu/sys/types.h:
 
 /usr/include/time.h:
 
-/usr/include/sys/select.h:
+/usr/include/x86_64-linux-gnu/sys/select.h:
 
-/usr/include/bits/select.h:
+/usr/include/x86_64-linux-gnu/bits/select.h:
 
-/usr/include/bits/sigset.h:
+/usr/include/x86_64-linux-gnu/bits/sigset.h:
 
-/usr/include/bits/time.h:
+/usr/include/x86_64-linux-gnu/bits/time.h:
 
-/usr/include/sys/sysmacros.h:
+/usr/include/x86_64-linux-gnu/bits/select2.h:
 
-/usr/include/bits/pthreadtypes.h:
+/usr/include/x86_64-linux-gnu/sys/sysmacros.h:
+
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
 
 /usr/include/alloca.h:
 
-/usr/include/bits/stdlib.h:
+/usr/include/x86_64-linux-gnu/bits/stdlib.h:
 
 ptypes.h:
 
 /usr/include/inttypes.h:
 
+/usr/lib/gcc/x86_64-linux-gnu/4.6/include/stdint.h:
+
 /usr/include/stdint.h:
 
-/usr/include/bits/wchar.h:
+/usr/include/x86_64-linux-gnu/bits/wchar.h:
 
 /usr/include/pcap.h:
 
 /usr/include/pcap/pcap.h:
 
-/usr/include/sys/time.h:
+/usr/include/x86_64-linux-gnu/sys/time.h:
 
 /usr/include/pcap/bpf.h:
 
@@ -138,15 +168,15 @@ ptypes.h:
 
 /usr/include/wchar.h:
 
-/usr/lib/gcc/i486-linux-gnu/4.4.3/include/stdarg.h:
+/usr/lib/gcc/x86_64-linux-gnu/4.6/include/stdarg.h:
 
-/usr/include/bits/stdio_lim.h:
+/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
 
-/usr/include/bits/sys_errlist.h:
+/usr/include/x86_64-linux-gnu/bits/sys_errlist.h:
 
-/usr/include/bits/stdio.h:
+/usr/include/x86_64-linux-gnu/bits/stdio.h:
 
-/usr/include/bits/stdio2.h:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:
 
 log.h:
 
@@ -220,8 +250,6 @@ errors.h:
 
 /usr/include/openssl/ssl3.h:
 
-/usr/include/openssl/pq_compat.h:
-
 /usr/include/openssl/tls1.h:
 
 /usr/include/openssl/dtls1.h:
@@ -229,6 +257,8 @@ errors.h:
 /usr/include/openssl/pqueue.h:
 
 /usr/include/openssl/ssl23.h:
+
+/usr/include/openssl/srtp.h:
 
 /usr/include/openssl/md5.h:
 
@@ -244,13 +274,13 @@ netdefs.h:
 
 /usr/include/linux/types.h:
 
-/usr/include/asm/types.h:
+/usr/include/x86_64-linux-gnu/asm/types.h:
 
 /usr/include/asm-generic/types.h:
 
 /usr/include/asm-generic/int-ll64.h:
 
-/usr/include/asm/bitsperlong.h:
+/usr/include/x86_64-linux-gnu/asm/bitsperlong.h:
 
 /usr/include/asm-generic/bitsperlong.h:
 
@@ -258,39 +288,39 @@ netdefs.h:
 
 /usr/include/linux/stddef.h:
 
-/usr/include/asm/posix_types.h:
+/usr/include/x86_64-linux-gnu/asm/posix_types.h:
 
-/usr/include/asm/posix_types_32.h:
+/usr/include/x86_64-linux-gnu/asm/posix_types_64.h:
 
 /usr/include/net/ethernet.h:
 
 /usr/include/net/if_arp.h:
 
-/usr/include/sys/socket.h:
+/usr/include/x86_64-linux-gnu/sys/socket.h:
 
-/usr/include/sys/uio.h:
+/usr/include/x86_64-linux-gnu/sys/uio.h:
 
-/usr/include/bits/uio.h:
+/usr/include/x86_64-linux-gnu/bits/uio.h:
 
-/usr/include/bits/socket.h:
+/usr/include/x86_64-linux-gnu/bits/socket.h:
 
-/usr/include/bits/sockaddr.h:
+/usr/include/x86_64-linux-gnu/bits/sockaddr.h:
 
-/usr/include/asm/socket.h:
+/usr/include/x86_64-linux-gnu/asm/socket.h:
 
 /usr/include/asm-generic/socket.h:
 
-/usr/include/asm/sockios.h:
+/usr/include/x86_64-linux-gnu/asm/sockios.h:
 
 /usr/include/asm-generic/sockios.h:
 
-/usr/include/bits/socket2.h:
+/usr/include/x86_64-linux-gnu/bits/socket2.h:
 
 /usr/include/netinet/ip.h:
 
 /usr/include/netinet/in.h:
 
-/usr/include/bits/in.h:
+/usr/include/x86_64-linux-gnu/bits/in.h:
 
 /usr/include/netinet/tcp.h:
 
