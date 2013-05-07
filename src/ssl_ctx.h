@@ -18,6 +18,7 @@
 ** Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
 **
 */
+#include <openssl/evp.h>
 #ifndef __DSSL_SSL_CTX_H__
 #define __DSSL_SSL_CTX_H__
 
