@@ -1,10 +1,12 @@
 Makefile
+Makefile.in
 config.log
 config.status
 configure.scan
 libtool
 autoscan.log
 samples/Makefile
+samples/Makefile.in
 src/Makefile
 tests/Makefile
 *.o
@@ -13,3 +15,6 @@ tests/Makefile
 samples/ssltrace
 src/.libs/*
 src/.deps/*
+src/Makefile.in
+tests/Makefile.in
+autom4te.cache/*
