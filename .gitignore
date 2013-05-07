@@ -1,0 +1,8 @@
+Makefile
+config.log
+config.status
+libtool
+samples/Makefile
+src/Makefile
+tests/Makefile
+
