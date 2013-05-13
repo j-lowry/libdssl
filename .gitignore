@@ -3,6 +3,7 @@ Makefile.in
 config.log
 config.status
 configure.scan
+configure
 libtool
 autoscan.log
 samples/Makefile
